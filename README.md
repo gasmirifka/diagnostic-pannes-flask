@@ -20,6 +20,7 @@ L’application utilise **Flask** pour l’interface web, un modèle de **machin
 
 ## 📂 Structure du projet
 système intelligent/
+
 │
 ├── mon_app.py      # Application web principale (authentification, rôles, diagnostic)
 
@@ -61,16 +62,21 @@ système intelligent/
 
 ## ⚙️ Installation
 Python 3.x
+
  Python libraries: pip install smtplib pandas flask
+ 
 ### 1. Cloner le projet
 git clone  https://github.com/gasmirifka/diagnostic-pannes-flask.git
+
 cd système intelligent
 
 ## Installer les dépendances
 pip install -r requirements.txt
 ## 🚀 Lancer l'application
 python mon_app.py
+
 Puis ouvre ton navigateur sur :
+
 🔗 http://127.0.0.1:5000
 ## 🧪 Fonctionnalités principales
 - Signalement de panne par les opérateurs
@@ -88,7 +94,10 @@ Puis ouvre ton navigateur sur :
 Projet open-source sous licence MIT.
 ## 🏷 Auteur
 Gasmi Rifka – 2025
+
 Master Robotique & IA – ISET Bizerte
+
 📧 gasmirifka5@gmail.com
+
 ## 🤝 Contributions
 Contributions bienvenues via issues ou pull requests.
