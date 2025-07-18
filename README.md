@@ -7,6 +7,8 @@ Ce projet consiste à développer une application web intelligente permettant de
 
 L’application utilise **Flask** pour l’interface web, un modèle de **machine learning (KNN)** pour la détection des pannes, et envoie des **alertes par email** en cas de panne .
 
+<img width="1648" height="683" alt="accueil" src="https://github.com/user-attachments/assets/085028fb-824f-4aaa-bd71-121a3b84a281" />
+
 ## 🛠 Technologies utilisées
 - **Backend** : Flask (Python)
 - **IA / NLP** : TfidfVectorizer + Nearest Neighbors (sklearn)
@@ -27,7 +29,7 @@ L’application utilise **Flask** pour l’interface web, un modèle de **machin
 │── train_model.py          # Python script d’entraînement KNN + TF-IDF
 │── translations.py 	      # Dictionnaire multilingue (français, anglais, japonais)
 │── models/                  #Modèle KNN et vectoriseur (fichiers .pkl)
-│── templates/     Interfaces HTML
+│── templates/               #Interfaces HTML
 │── data_email.txt          # Sample email data
 
 
