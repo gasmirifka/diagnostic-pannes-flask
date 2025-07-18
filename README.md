@@ -22,23 +22,40 @@ L’application utilise **Flask** pour l’interface web, un modèle de **machin
 système intelligent/
 │
 ├── mon_app.py      # Application web principale (authentification, rôles, diagnostic)
+
 │── train_model.py          # Python script d’entraînement KNN + TF-IDF
+
 │── translations.py 	      # Dictionnaire multilingue (français, anglais, japonais)
+
 ├── data/
+
 │ ├── pannes.db
+
 │
 ├── templates/
+
 │ ├── layout.html # Template principal
+
 │ ├── index.html # Page de formulaire
+
 │ └── result.html # Page de résultats
-│── models/                    
+
+│── models/      
+
 | └── knn_model.pkl      #Modèle KNN
+
 | └──vectorizer.pkl      # vectoriseur
+
 ├── static/
+
 │ └── style.css # Style CSS
+
 │── data_email.txt          # Sample email 
+
 ├── requirements.txt # Liste des dépendances Python
+
 ├── .gitignore # Fichiers à ignorer dans Git
+
 └── README.md # Documentation du projet
 
 
