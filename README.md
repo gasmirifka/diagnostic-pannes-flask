@@ -17,12 +17,19 @@ L’application utilise **Flask** pour l’interface web, un modèle de **machin
 - **Modèle enregistré** : `knn_model.pkl`, `vectorizer.pkl`
 
 ## 📂 Structure du projet
+/système intelligent
+│── mon_app.py      # Application web principale (authentification, rôles, diagnostic)
+│── README.md               # Project documentation
+│── Untitled Project 1.lvproj  # LabVIEW project file
+│── read_courbe.vi          # Visualization VI
+│── smart_temp_humid.vi     # Main VI for smart monitoring
+│── temp_humid.csv          # Logged sensor data
+│── train_model.py          # Python script d’entraînement KNN + TF-IDF
+│── translations.py 	      # Dictionnaire multilingue (français, anglais, japonais)
+│── models/                  #Modèle KNN et vectoriseur (fichiers .pkl)
+│── templates/     Interfaces HTML
+│── data_email.txt          # Sample email data
 
-**mon_app.py** 	    Application web principale (authentification, rôles, diagnostic)
-**train_model.py**	Script d’entraînement KNN + TF-IDF
-**translations.py**	Dictionnaire multilingue (français, anglais, japonais)
-**models/**         Modèle KNN et vectoriseur (fichiers .pkl)
-**templates/**      Interfaces HTML  
 
 ## 🧪 Fonctionnalités principales
 - Signalement de panne par les opérateurs
